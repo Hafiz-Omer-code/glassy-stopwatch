@@ -1,0 +1,71 @@
+/* Global styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.display-time {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.buttons button {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.buttons button:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.laps {
+    list-style: none;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.laps li {
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    margin-top: 5px;
+}

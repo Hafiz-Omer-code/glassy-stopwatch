@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Enhanced Stopwatch</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Glassy Stopwatch</h1>
+        <div id="displayTime" class="display-time">00:00:00</div>
+        <div class="buttons">
+            <button onclick="watchStart()">Start</button>
+            <button onclick="watchStop()">Stop</button>
+            <button onclick="watchReset()">Reset</button>
+            <button onclick="recordLap()">Lap</button>
+        </div>
+        <ul id="laps" class="laps"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
